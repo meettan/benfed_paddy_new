@@ -1,0 +1,12 @@
+2021110394831:Error in Validation of file.
+
+ error : Name of the file not in proper format 
+
+         File Naming Convention should be in(CLIENTCODEDDMM.SRL) format.
+
+          1. CLIENTCODE: Client Code Should be Minimum 4 and Maximum 10 Characters. 
+          2. DDMM: DDMM Stands for Date & Month (Eg: 0111). 
+          3. SRL: Running Serial Number should be in 3 digits and it should be Numeric. 
+          4. File Extension Should be Running Serial Number, preceeded by a Dot(.). 
+          5. For Further Assistance Please Contact HDFCBANK Support Desk. 
+          6. The File Name Should be in Upper Case.

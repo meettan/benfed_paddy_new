@@ -1,0 +1,21 @@
+20210305122715:Error in Validation of file.
+
+ [I, 3350080629, 1311525000001340, 56040.00, MILAN KAZI, , , , , , , , , 335001063240, , , , , , , , , 05/03/2021, , HDFC0CBCCBL, , , benfedpaddy1920@gmail.com, I]
+  error : Invalid AccountNo width at line no: 2
+
+[I, 3350087250, 1311525000001178, 56040.00, SHIB DAS HAZRA, , , , , , , , , 335001063250, , , , , , , , , 05/03/2021, , HDFC0CBCCBL, , , benfedpaddy1920@gmail.com, I]
+  error : Invalid AccountNo width at line no: 3
+
+[I, 3350092373, 1311525000001135, 65006.00, MANIK PAI, , , , , , , , , 335001063300, , , , , , , , , 05/03/2021, , HDFC0CBCCBL, , , benfedpaddy1920@gmail.com, I]
+  error : Invalid AccountNo width at line no: 8
+
+[I, 3350175437, 1311525000004752, 56040.00, SHAYAMAL LOHAR, , , , , , , , , 335001063410, , , , , , , , , 05/03/2021, , HDFC0CBCCBL, , , benfedpaddy1920@gmail.com, I]
+  error : Invalid AccountNo width at line no: 13
+
+[I, 3350187077, 1311525000004358, 56040.00, RAGHUNATH RAY, , , , , , , , , 335001063440, , , , , , , , , 05/03/2021, , HDFC0CBCCBL, , , benfedpaddy1920@gmail.com, I]
+  error : Invalid AccountNo width at line no: 16
+
+[I, 3350188716, 1311525000004846, 56040.00, KISMOTARA BEGAM, , , , , , , , , 335001063460, , , , , , , , , 05/03/2021, , HDFC0CBCCBL, , , benfedpaddy1920@gmail.com, I]
+  error : Invalid AccountNo width at line no: 18
+
+

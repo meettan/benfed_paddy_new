@@ -1,0 +1,12 @@
+20210730112538:Error in Validation of file.
+
+ [I, 3350064777, 1311525000002445, 37360.00, SAMIUL SHAHA, , , , , , , , , 335001775590, , , , , , , , , 30/07/2021, , HDFC0CBCCBL, , , benfedpaddy1920@gmail.com, I]
+  error : Invalid AccountNo width at line no: 1
+
+[I, 3350201375, 1311525000005595, 37360.00, SIRAJUL SEKH, , , , , , , , , 335001775610, , , , , , , , , 30/07/2021, , HDFC0CBCCBL, , , benfedpaddy1920@gmail.com, I]
+  error : Invalid AccountNo width at line no: 3
+
+[I, 3350208781, 1041520100114636, 36613.00, SK NAZRUL HAQUE, , , , , , , , , 335001775620, , , , , , , , , 30/07/2021, , HDFC0CBCCBL, , , benfedpaddy1920@gmail.com, I]
+  error : Invalid AccountNo width at line no: 4
+
+

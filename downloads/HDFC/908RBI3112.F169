@@ -1,0 +1,10 @@
+20201231134147:Error in Validation of file.
+
+ [N, 3450007843, 70401006347, 48232.00, , MRS GOURI RANI HAZRA, , , , , , , , , 345000362110, , , , , , , , , 31/12/2020, , IBKL0752B10, , , N]
+  error : IFSC Code not allowed if more than 11 charactor's at line no1
+  error : Beneficiary Name should not be empty for non A/c to A/c transfers at line no :1
+error : Customer Reference Number is Mandatory for NEFT Payment Type at line no :1
+  error : Cheque Date / Transaction Date should not be Null at line no 1
+  error : MICR Number not in proper format at line no a1
+
+
