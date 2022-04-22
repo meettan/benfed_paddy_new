@@ -446,7 +446,7 @@ class Transactions extends MX_Controller {
                 $ftrans_id = $this->Paddy->f_get_particulars("td_collections",array("ifnull(MAX(trans_id),0) trans_id"),array('kms_id' => $kms_id), 1);
                 $trans_id = $trans_id->trans_id;
                 $for_trans_id = $ftrans_id->trans_id;
-
+                $totqty = 0;
                     
                     while(($line = fgetcsv($csvFile)) !== FALSE){
                         if($line[2] !='') {
@@ -478,6 +478,7 @@ class Transactions extends MX_Controller {
                             "certificate_4"       =>  "N",
                             "created_dt"          =>  date('Y-m-d h:i:s')
                            );
+                            $totqty += floatval($line[5]);
                         }
                                     
                     }  
@@ -485,7 +486,18 @@ class Transactions extends MX_Controller {
                     unset($data[0]);
                     $data = array_values($data);
                    fclose($csvFile);
+        
+                   $data_received = array('trans_dt' => $trans_dt,
+                                           'kms_year'=> $kms_id,
+                                           'branch_id'=>$branch_cd,
+                                           'dist' =>$branch_cd ,
+                                           'soc_id' =>$soc_id,
+                                           'mill_id'=>$mill_id, 
+                                           'paddy_qty'=>$totqty,
+                                           'created_by'=>'AUTO',
+                                           'created_dt'=> date('Y-m-d h:i:s'));
                 $this->Paddy->f_insert_multiple('td_collections', $data);
+                $this->db->insert('td_received',$data_received);
             }
         
 

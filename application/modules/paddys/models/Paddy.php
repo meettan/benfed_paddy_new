@@ -667,7 +667,6 @@ class Paddy extends CI_Model {
                       b.soc_id soc_id,
                       b.trans_dt trans_dt,
                       b.bulk_trans_id,
-                      b.forward_bulk_trans_id forward_bulk_trans_id,  
                       sum(b.quantity)tot_qty,
                       sum(b.amount)tot_amt,
                       b.status status,
@@ -681,11 +680,10 @@ class Paddy extends CI_Model {
                 group by a.soc_name,
                          b.soc_id,
                          b.bulk_trans_id,
-                         b.forward_bulk_trans_id,
                          b.trans_dt,
                          b.status,
-                         b.forwarded_by,
-                         b.chq_status
+                         b.chq_status,
+                         b.forwarded_by
                 order by b.trans_dt,b.bulk_trans_id
                 ";
         

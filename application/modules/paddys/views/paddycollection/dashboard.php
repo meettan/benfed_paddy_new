@@ -1,12 +1,8 @@
 <div class="wraper">   
 
-  
         <div class="row">
-            
             <div class="col-lg-9 col-sm-12">
-
                 <h1><strong>Paddy Procurement</strong></h1>
-
             </div>
 
         </div>
@@ -31,15 +27,15 @@
                     <tr>
                         <th width="25px">Sl. No</th>
                         <th>Society</th>
-                        <th>File Number</th>
-                    <!--     <th>Bank</th> -->
+                     <!--   <th>File Number</th>
+                         <th>Bank</th> -->
                         <th>Procurement Dt</th>        
                         <th>Quantity</th>
                         <th width="50px">Amount</th>
                       <!--   <th>Uploaded By</th> -->
                         <th>Option</th>
-                        <th>Forward </th>
-                        <th>Forwarded By</th>
+                     <!--   <th>Forward </th>
+                        <th>Forwarded By</th> -->
                         <th>Delete</th>
                     </tr>
 
@@ -57,7 +53,7 @@
 
                           <td ><?php echo ++$count; ?></td>
                           <td ><?php echo $padl_dtl->soc_name; ?></td>
-                          <td ><?php echo $padl_dtl->forward_bulk_trans_id; ?></td>
+                        
                       <!--     <td><?php //echo $padl_dtl->bank_name; ?></td> -->
                           <td ><?php echo date('d/m/Y',strtotime($padl_dtl->trans_dt)); ?></td>
                           <td ><?php echo $padl_dtl->tot_qty; ?></td>
@@ -72,7 +68,7 @@
                               <i class="fa fa-edit fa-2x" style="color: #007bff"></i></a>
                             <?php } ?>
                           </td>
-                          <td > <b>
+                        <!--  <td > <b>
                             <?php if($padl_dtl->status == 0 && $padl_dtl->chq_status == 'U') { 
                           
                                      echo "Data Uploaded"; ?> 
@@ -119,8 +115,8 @@
                                 }  
                                  ?>  
                                  </b>  
-                                </td>
-                                <td><?php echo $padl_dtl->forwarded_by; ?></td>
+                                </td> 
+                                <td><?php //echo $padl_dtl->forwarded_by; ?></td> -->
                                  <td>
                                     <?php if($padl_dtl->status == 0 && $padl_dtl->chq_status == 'U') { ?>
 
@@ -150,15 +146,10 @@
                     <th width="25px">Sl. No.</th>
                        
                         <th>Society</th>
-                        <th>File Number</th>
-                      <!--   <th>Bank</th> -->
                         <th>Procurement Dt</th> 
                         <th>Quantity</th>
                         <th width="50px">Amount</th>
-                      <!--   <th>Uploaded By</th> -->
                         <th>Option</th>
-                        <th>Forward</th>
-                        <th>Forwarded By</th>
                         <th>Delete</th>
                     </tr>
                 
